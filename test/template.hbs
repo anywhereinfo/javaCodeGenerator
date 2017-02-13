@@ -1,0 +1,14 @@
+package com.amazon.smc.shared.pricing.ec2;
+
+import static com.amazon.commonenums.shared.services.ec2.OSType.*;
+import static com.amazon.commonenums.shared.services.ec2.Type.*;
+
+public class EC2PricingDataOI_{{[0].metaData.regionAirportCode}} extends EC2PricingDataOI {
+  public EC2PricingDataOI_{{[0].metaData.regionAirportCode}}() {
+      {{#each [1].products as |product|}}
+          {{#if product.term }}
+            add( {{product.os}}, {{product.instanceType}}, {{round term.priceDimensions.pricePerUnit scale=3}} );
+          {{/if}}
+      {{/each}}
+  }
+}

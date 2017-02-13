@@ -1,0 +1,3503 @@
+[
+  {
+    "metaData": {
+      "serviceName": "AmazonEC2",
+      "serviceAlias": "EC2",
+      "feature": "OnDemand",
+      "featureCode": "OI",
+      "regionName": "London",
+      "regionAirportCode": "LHR",
+      "formatVersion": "v1.0",
+      "version": "20161213014831",
+      "publicationDate": "2016-12-13T01:48:31Z"
+    }
+  },
+  {
+    "products": [
+      {
+        "sku": "CERBK7JEFDU3SV3B",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CERBK7JEFDU3SV3B",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CERBK7JEFDU3SV3B.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.476 per On Demand Linux c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4760000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "3T2RCRCGD3A5FJVS",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "3T2RCRCGD3A5FJVS",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "3T2RCRCGD3A5FJVS.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.95 per On Demand Linux c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.9500000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "QUSZR9Z7BVE8CD5Y",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "QUSZR9Z7BVE8CD5Y",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "QUSZR9Z7BVE8CD5Y.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.902 per On Demand Linux c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.9020000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "9NVRASEGRRTWVG7A",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.large",
+        "instanceType": "C4_LARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "9NVRASEGRRTWVG7A",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "9NVRASEGRRTWVG7A.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.119 per On Demand Linux c4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1190000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "2X6UN3SCD9TM673F",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "2X6UN3SCD9TM673F",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "2X6UN3SCD9TM673F.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.237 per On Demand Linux c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2370000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TK9JKUTPVAPNT9BR",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.2xlarge",
+        "instanceType": "D2_2XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TK9JKUTPVAPNT9BR",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TK9JKUTPVAPNT9BR.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.544 per On Demand Linux d2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.5440000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "QE4YJQ9HUCYB3CA9",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.4xlarge",
+        "instanceType": "D2_4XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "QE4YJQ9HUCYB3CA9",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "QE4YJQ9HUCYB3CA9.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.087 per On Demand Linux d2.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.0870000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "KZ3QWPFNPPDUDYW7",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.8xlarge",
+        "instanceType": "D2_8XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "KZ3QWPFNPPDUDYW7",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "KZ3QWPFNPPDUDYW7.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$6.174 per On Demand Linux d2.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "6.1740000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "B5GZYSM5938VWDYM",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.xlarge",
+        "instanceType": "D2_XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "B5GZYSM5938VWDYM",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "B5GZYSM5938VWDYM.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.772 per On Demand Linux d2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.7720000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "UVNK5GZCP7NWANZR",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "UVNK5GZCP7NWANZR",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "UVNK5GZCP7NWANZR.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$2.496 per On Demand Linux m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "2.4960000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "HEF8FVEMCGG7JDZ4",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HEF8FVEMCGG7JDZ4",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "HEF8FVEMCGG7JDZ4.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.993 per On Demand Linux m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.9930000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "QX3BAPSZJEUCA9FJ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "QX3BAPSZJEUCA9FJ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "QX3BAPSZJEUCA9FJ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.499 per On Demand Linux m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4990000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "4CH6QCAN52UJ2AW2",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "4CH6QCAN52UJ2AW2",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "4CH6QCAN52UJ2AW2.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.998 per On Demand Linux m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.9980000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "6EUVB38T7YB7GF9S",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.large",
+        "instanceType": "M4_LARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6EUVB38T7YB7GF9S",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "6EUVB38T7YB7GF9S.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.125 per On Demand Linux m4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1250000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "GRFBXV37KF9VYJRF",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "GRFBXV37KF9VYJRF",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "GRFBXV37KF9VYJRF.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.25 per On Demand Linux m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2500000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "JZWW5SBQZVBCV8AJ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.2xlarge",
+        "instanceType": "T2_2XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JZWW5SBQZVBCV8AJ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JZWW5SBQZVBCV8AJ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.424 per On Demand Linux t2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4240000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "92TGCNQTRRAJJAS7",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.large",
+        "instanceType": "T2_LARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "92TGCNQTRRAJJAS7",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "92TGCNQTRRAJJAS7.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.106 per On Demand Linux t2.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1060000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "KGHEQT4SACPTYQNB",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.medium",
+        "instanceType": "T2_MEDIUM",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "KGHEQT4SACPTYQNB",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "KGHEQT4SACPTYQNB.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.052 per On Demand Linux t2.medium Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0520000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "HDQ9VZCETFEMF7CB",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.micro",
+        "instanceType": "T2_MICRO",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HDQ9VZCETFEMF7CB",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "HDQ9VZCETFEMF7CB.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.014 per On Demand Linux t2.micro Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0140000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CFJ5RE2H7KHV9HK9",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.nano",
+        "instanceType": "T2_NANO",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CFJ5RE2H7KHV9HK9",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CFJ5RE2H7KHV9HK9.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0066 per On Demand Linux t2.nano Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0066000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "XQ8FKG65FR9Z4ZPR",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.small",
+        "instanceType": "T2_SMALL",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "XQ8FKG65FR9Z4ZPR",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "XQ8FKG65FR9Z4ZPR.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.026 per On Demand Linux t2.small Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0260000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "PAESNTWTS8RUGKY6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.xlarge",
+        "instanceType": "T2_XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "PAESNTWTS8RUGKY6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "PAESNTWTS8RUGKY6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.212 per On Demand Linux t2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2120000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "VN4E7YXFSEGMW9H7",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "VN4E7YXFSEGMW9H7",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "VN4E7YXFSEGMW9H7.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$8.403 per On Demand Linux x1.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "8.4030000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "Y6DK4ETN32KZE2ZQ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "Linux",
+        "preInstalledSw": "NA",
+        "os": "LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "Y6DK4ETN32KZE2ZQ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "Y6DK4ETN32KZE2ZQ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$16.806 per On Demand Linux x1.32xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "16.8060000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "M2GXG43JAWXCH7QM",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "M2GXG43JAWXCH7QM",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "M2GXG43JAWXCH7QM.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.606 per On Demand RHEL c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.6060000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "3WPT3P5RMHD6QYRS",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "3WPT3P5RMHD6QYRS",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "3WPT3P5RMHD6QYRS.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.08 per On Demand RHEL c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.0800000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "7SEGG7QCGFN2RV9G",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "7SEGG7QCGFN2RV9G",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "7SEGG7QCGFN2RV9G.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$2.032 per On Demand RHEL c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "2.0320000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "DB2NZU9X5S8VKPXB",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.large",
+        "instanceType": "C4_LARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "DB2NZU9X5S8VKPXB",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "DB2NZU9X5S8VKPXB.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.179 per On Demand RHEL c4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1790000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "NMXHEMGCU7GTCUQE",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "NMXHEMGCU7GTCUQE",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "NMXHEMGCU7GTCUQE.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.297 per On Demand RHEL c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2970000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "GKS7ZAZNXX6WJMFT",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.2xlarge",
+        "instanceType": "D2_2XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "GKS7ZAZNXX6WJMFT",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "GKS7ZAZNXX6WJMFT.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.674 per On Demand RHEL d2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.6740000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "BZ8SAYEP7E4UZPDX",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.4xlarge",
+        "instanceType": "D2_4XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "BZ8SAYEP7E4UZPDX",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "BZ8SAYEP7E4UZPDX.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.217 per On Demand RHEL d2.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.2170000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "WDP8EMU445HZWGPP",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.8xlarge",
+        "instanceType": "D2_8XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "WDP8EMU445HZWGPP",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "WDP8EMU445HZWGPP.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$6.304 per On Demand RHEL d2.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "6.3040000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "D555CQWEKBPW5RZY",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.xlarge",
+        "instanceType": "D2_XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "D555CQWEKBPW5RZY",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "D555CQWEKBPW5RZY.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.832 per On Demand RHEL d2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.8320000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "494YYNWWVTV353N8",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "494YYNWWVTV353N8",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "494YYNWWVTV353N8.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$2.626 per On Demand RHEL m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "2.6260000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "C2PCZ87GBQXQTZ8U",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "C2PCZ87GBQXQTZ8U",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "C2PCZ87GBQXQTZ8U.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$4.123 per On Demand RHEL m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "4.1230000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "3XGS7GU8YQHFADYM",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "3XGS7GU8YQHFADYM",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "3XGS7GU8YQHFADYM.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.629 per On Demand RHEL m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.6290000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "6NU2WKGU928EF6SD",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6NU2WKGU928EF6SD",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "6NU2WKGU928EF6SD.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.128 per On Demand RHEL m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.1280000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "5RWTSB2XB84KUWJN",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.large",
+        "instanceType": "M4_LARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "5RWTSB2XB84KUWJN",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "5RWTSB2XB84KUWJN.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.185 per On Demand RHEL m4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1850000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "H6XEX78UVM4QTS5R",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "H6XEX78UVM4QTS5R",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "H6XEX78UVM4QTS5R.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.31 per On Demand RHEL m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.3100000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "ABUWFNDSSJBXYZMB",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.2xlarge",
+        "instanceType": "T2_2XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "ABUWFNDSSJBXYZMB",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "ABUWFNDSSJBXYZMB.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.554 per On Demand RHEL t2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.5540000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "ZFDFVDKREGSGYPSZ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.large",
+        "instanceType": "T2_LARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "ZFDFVDKREGSGYPSZ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "ZFDFVDKREGSGYPSZ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.166 per On Demand RHEL t2.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1660000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "ZBZXEB5TYEFCHB8Q",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.medium",
+        "instanceType": "T2_MEDIUM",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "ZBZXEB5TYEFCHB8Q",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "ZBZXEB5TYEFCHB8Q.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.112 per On Demand RHEL t2.medium Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1120000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "GH6A6VZXYB2XSHA5",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.micro",
+        "instanceType": "T2_MICRO",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "GH6A6VZXYB2XSHA5",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "GH6A6VZXYB2XSHA5.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.074 per On Demand RHEL t2.micro Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0740000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "56EYGZR8HMH3Y99H",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.small",
+        "instanceType": "T2_SMALL",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "56EYGZR8HMH3Y99H",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "56EYGZR8HMH3Y99H.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.086 per On Demand RHEL t2.small Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0860000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "5SSHGG9Q7P8V2FX6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.xlarge",
+        "instanceType": "T2_XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "5SSHGG9Q7P8V2FX6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "5SSHGG9Q7P8V2FX6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.272 per On Demand RHEL t2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2720000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "QD6DQSAC7SP5AYHF",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "QD6DQSAC7SP5AYHF",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "QD6DQSAC7SP5AYHF.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$8.533 per On Demand RHEL x1.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "8.5330000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "7GQW5E3J2USECW98",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "RHEL",
+        "preInstalledSw": "NA",
+        "os": "RHEL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "7GQW5E3J2USECW98",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "7GQW5E3J2USECW98.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$16.936 per On Demand RHEL x1.32xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "16.9360000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "X9BJNBKAHMRKCH2X",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "X9BJNBKAHMRKCH2X",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "X9BJNBKAHMRKCH2X.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.576 per On Demand SUSE c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.5760000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "W5A96ZBND2D6U79G",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "W5A96ZBND2D6U79G",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "W5A96ZBND2D6U79G.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.05 per On Demand SUSE c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.0500000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "2Q5STUEW2K8SRZQF",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "2Q5STUEW2K8SRZQF",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "2Q5STUEW2K8SRZQF.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$2.002 per On Demand SUSE c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "2.0020000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "UR687TWJQAXYSW4F",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.large",
+        "instanceType": "C4_LARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "UR687TWJQAXYSW4F",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "UR687TWJQAXYSW4F.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.219 per On Demand SUSE c4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2190000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "V6VKYTN24UKH28U4",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "V6VKYTN24UKH28U4",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "V6VKYTN24UKH28U4.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.337 per On Demand SUSE c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.3370000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "PZYVQYW73DJUWU4F",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.2xlarge",
+        "instanceType": "D2_2XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "PZYVQYW73DJUWU4F",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "PZYVQYW73DJUWU4F.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.644 per On Demand SUSE d2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.6440000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "A38PCZ7RNZC89KHJ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.4xlarge",
+        "instanceType": "D2_4XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "A38PCZ7RNZC89KHJ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "A38PCZ7RNZC89KHJ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.187 per On Demand SUSE d2.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.1870000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "YRS6D9NMZ774RYAK",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.8xlarge",
+        "instanceType": "D2_8XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "YRS6D9NMZ774RYAK",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "YRS6D9NMZ774RYAK.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$6.274 per On Demand SUSE d2.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "6.2740000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "WFPGX7DDPQNUJAYD",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.xlarge",
+        "instanceType": "D2_XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "WFPGX7DDPQNUJAYD",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "WFPGX7DDPQNUJAYD.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.872 per On Demand SUSE d2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.8720000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CANNKQ6Q9UHBZK36",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CANNKQ6Q9UHBZK36",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CANNKQ6Q9UHBZK36.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$2.596 per On Demand SUSE m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "2.5960000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "W2GSCVSMW3FPBPN9",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "W2GSCVSMW3FPBPN9",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "W2GSCVSMW3FPBPN9.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$4.093 per On Demand SUSE m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "4.0930000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "JBJAAPGBU8QDH9QA",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JBJAAPGBU8QDH9QA",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JBJAAPGBU8QDH9QA.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.599 per On Demand SUSE m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.5990000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "SPTZA6AP4B995A8U",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "SPTZA6AP4B995A8U",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "SPTZA6AP4B995A8U.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.098 per On Demand SUSE m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.0980000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "4CD32PHCSVYBY6QK",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.large",
+        "instanceType": "M4_LARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "4CD32PHCSVYBY6QK",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "4CD32PHCSVYBY6QK.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.225 per On Demand SUSE m4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2250000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "C6XV4ADN683CWKRJ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "C6XV4ADN683CWKRJ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "C6XV4ADN683CWKRJ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.35 per On Demand SUSE m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.3500000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "DHPY5RM8958NRNNU",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.2xlarge",
+        "instanceType": "T2_2XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "DHPY5RM8958NRNNU",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "DHPY5RM8958NRNNU.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.524 per On Demand SUSE t2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.5240000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "C2A8Y4F9Q2P8CXET",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.large",
+        "instanceType": "T2_LARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "C2A8Y4F9Q2P8CXET",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "C2A8Y4F9Q2P8CXET.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.206 per On Demand SUSE t2.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2060000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "JFXE4W9NS5GYMWZR",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.medium",
+        "instanceType": "T2_MEDIUM",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JFXE4W9NS5GYMWZR",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JFXE4W9NS5GYMWZR.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.152 per On Demand SUSE t2.medium Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1520000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "3N5WXV9D2XH599FM",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.micro",
+        "instanceType": "T2_MICRO",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "3N5WXV9D2XH599FM",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "3N5WXV9D2XH599FM.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.024 per On Demand SUSE t2.micro Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0240000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "6VFNU3YYS7MUGNND",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.nano",
+        "instanceType": "T2_NANO",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6VFNU3YYS7MUGNND",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "6VFNU3YYS7MUGNND.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0166 per On Demand SUSE t2.nano Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0166000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "SGYKTVK2M8J5RVFP",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.small",
+        "instanceType": "T2_SMALL",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "SGYKTVK2M8J5RVFP",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "SGYKTVK2M8J5RVFP.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.056 per On Demand SUSE t2.small Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0560000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "58F2UTJ42NZA86DW",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.xlarge",
+        "instanceType": "T2_XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "58F2UTJ42NZA86DW",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "58F2UTJ42NZA86DW.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.312 per On Demand SUSE t2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.3120000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "SYAXBE8WSG8EBUYT",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "SYAXBE8WSG8EBUYT",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "SYAXBE8WSG8EBUYT.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$8.503 per On Demand SUSE x1.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "8.5030000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "GTKCPS7XYAMXSZYM",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "SUSE",
+        "preInstalledSw": "NA",
+        "os": "SUSE_LINUX",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "GTKCPS7XYAMXSZYM",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "GTKCPS7XYAMXSZYM.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$16.906 per On Demand SUSE x1.32xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "16.9060000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "JCF4G9B4FKQ92FBQ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JCF4G9B4FKQ92FBQ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JCF4G9B4FKQ92FBQ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.844 per On Demand Windows c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.8440000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "H8BGQH87MXSRYH9P",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "H8BGQH87MXSRYH9P",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "H8BGQH87MXSRYH9P.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.686 per On Demand Windows c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.6860000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TX6N6JWHVG6R55SK",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TX6N6JWHVG6R55SK",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TX6N6JWHVG6R55SK.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.558 per On Demand Windows c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.5580000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "NJYJAMFEMWY3BC2Y",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.large",
+        "instanceType": "C4_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "NJYJAMFEMWY3BC2Y",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "NJYJAMFEMWY3BC2Y.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.211 per On Demand Windows c4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2110000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "8326CFQG8ZGKT4AV",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "8326CFQG8ZGKT4AV",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "8326CFQG8ZGKT4AV.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.421 per On Demand Windows c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4210000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "QPGBTGK5FDQ44X49",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.2xlarge",
+        "instanceType": "D2_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "QPGBTGK5FDQ44X49",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "QPGBTGK5FDQ44X49.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.912 per On Demand Windows d2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.9120000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "5BQF382CZT5BPK73",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.4xlarge",
+        "instanceType": "D2_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "5BQF382CZT5BPK73",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "5BQF382CZT5BPK73.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.823 per On Demand Windows d2.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.8230000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "NP6A9B5B2MUQSQRS",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.8xlarge",
+        "instanceType": "D2_8XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "NP6A9B5B2MUQSQRS",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "NP6A9B5B2MUQSQRS.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$7.83 per On Demand Windows d2.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "7.8300000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "33ZR2GJDSF2BCYB6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.xlarge",
+        "instanceType": "D2_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "33ZR2GJDSF2BCYB6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "33ZR2GJDSF2BCYB6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.956 per On Demand Windows d2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.9560000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "N4CZ85KJCKZM6UYR",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "N4CZ85KJCKZM6UYR",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "N4CZ85KJCKZM6UYR.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$4.336 per On Demand Windows m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "4.3360000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TGMP4Q4U57XC96K5",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TGMP4Q4U57XC96K5",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TGMP4Q4U57XC96K5.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$6.937 per On Demand Windows m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "6.9370000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "S5FQYRMQPKTFFVJY",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "S5FQYRMQPKTFFVJY",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "S5FQYRMQPKTFFVJY.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.867 per On Demand Windows m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.8670000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "UJYS8CHRJSZ4W3VN",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "UJYS8CHRJSZ4W3VN",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "UJYS8CHRJSZ4W3VN.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.734 per On Demand Windows m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.7340000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "PPQT6JJ737VYRTVW",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.large",
+        "instanceType": "M4_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "PPQT6JJ737VYRTVW",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "PPQT6JJ737VYRTVW.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.217 per On Demand Windows m4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2170000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "V2XQ48QKSJQPV6MU",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "V2XQ48QKSJQPV6MU",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "V2XQ48QKSJQPV6MU.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.434 per On Demand Windows m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4340000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "KA6XG4S8SMT7CKRC",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.2xlarge",
+        "instanceType": "T2_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "KA6XG4S8SMT7CKRC",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "KA6XG4S8SMT7CKRC.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.4861 per On Demand Windows t2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4861000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "JATP8KYRJCE65WY3",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.large",
+        "instanceType": "T2_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JATP8KYRJCE65WY3",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JATP8KYRJCE65WY3.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.1336 per On Demand Windows t2.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1336000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "SY6C4VZHUANARGK3",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.medium",
+        "instanceType": "T2_MEDIUM",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "SY6C4VZHUANARGK3",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "SY6C4VZHUANARGK3.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0704 per On Demand Windows t2.medium Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0704000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "FY5U9TXT5FXG2NJC",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.micro",
+        "instanceType": "T2_MICRO",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "FY5U9TXT5FXG2NJC",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "FY5U9TXT5FXG2NJC.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0186 per On Demand Windows t2.micro Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0186000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CX7UCHECQ93XAN4Y",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.nano",
+        "instanceType": "T2_NANO",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CX7UCHECQ93XAN4Y",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CX7UCHECQ93XAN4Y.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0089 per On Demand Windows t2.nano Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0089000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "5PEANJXRS3EW4QB8",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.small",
+        "instanceType": "T2_SMALL",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "5PEANJXRS3EW4QB8",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "5PEANJXRS3EW4QB8.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0352 per On Demand Windows t2.small Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0352000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "22VPGB87R2NZ8A4A",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.xlarge",
+        "instanceType": "T2_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "22VPGB87R2NZ8A4A.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.2534 per On Demand Windows t2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2534000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "6DNAXMUZJUSD3PJ6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6DNAXMUZJUSD3PJ6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "6DNAXMUZJUSD3PJ6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$11.347 per On Demand Windows x1.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "11.3470000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "JW7PRV6WHQAC96B9",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "NA",
+        "os": "WINDOWS",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JW7PRV6WHQAC96B9",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JW7PRV6WHQAC96B9.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$22.694 per On Demand Windows x1.32xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "22.6940000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CN9ZZN796U3Q6HUP",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CN9ZZN796U3Q6HUP",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CN9ZZN796U3Q6HUP.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.097 per On Demand Windows with SQL Std c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.0970000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "DDWN4GDQYZAS5X66",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "DDWN4GDQYZAS5X66",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "DDWN4GDQYZAS5X66.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$6.192 per On Demand Windows with SQL Std c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "6.1920000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "DPJYYJFDAT78J2VP",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "DPJYYJFDAT78J2VP",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "DPJYYJFDAT78J2VP.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$13.696 per On Demand Windows with SQL Std c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "13.6960000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CYRE9Z7JPWJRBZ5M",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.large",
+        "instanceType": "C4_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CYRE9Z7JPWJRBZ5M",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CYRE9Z7JPWJRBZ5M.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.338 per On Demand Windows with SQL Std c4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.3380000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "PMJ34J68K72QATNA",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "PMJ34J68K72QATNA",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "PMJ34J68K72QATNA.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.548 per On Demand Windows with SQL Std c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.5480000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "62MNGHCG7NWQFR5P",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "62MNGHCG7NWQFR5P",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "62MNGHCG7NWQFR5P.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$15.6 per On Demand Windows with SQL Std m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "15.6000000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "VR65QMCDBG99MU84",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "VR65QMCDBG99MU84",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "VR65QMCDBG99MU84.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$24.959 per On Demand Windows with SQL Std m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "24.9590000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "9KAZ98PP5MR86KK3",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "9KAZ98PP5MR86KK3",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "9KAZ98PP5MR86KK3.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.12 per On Demand Windows with SQL Std m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.1200000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "NBR5E7GC5X76PNM7",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "NBR5E7GC5X76PNM7",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "NBR5E7GC5X76PNM7.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$6.24 per On Demand Windows with SQL Std m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "6.2400000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "STVUZFB8XGJQQK7M",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.large",
+        "instanceType": "M4_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "STVUZFB8XGJQQK7M",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "STVUZFB8XGJQQK7M.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.344 per On Demand Windows with SQL Std m4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.3440000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TKZWFJHDH7BDSGMG",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TKZWFJHDH7BDSGMG",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TKZWFJHDH7BDSGMG.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.561 per On Demand Windows with SQL Std m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.5610000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "FPAM5M794ZPAJXB3",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "FPAM5M794ZPAJXB3",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "FPAM5M794ZPAJXB3.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$29.369 per On Demand Windows with SQL Std x1.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "29.3690000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "973ZBMSQVV3E793D",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Std",
+        "os": "WINDOWS_SQL",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "973ZBMSQVV3E793D",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "973ZBMSQVV3E793D.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$58.738 per On Demand Windows with SQL Std x1.32xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "58.7380000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TR64V6XE2QDPCPC4",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TR64V6XE2QDPCPC4",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TR64V6XE2QDPCPC4.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.844 per On Demand Windows with SQL Server Enterprise c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.8440000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "DNFH5JRN4B6HJNR2",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "DNFH5JRN4B6HJNR2",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "DNFH5JRN4B6HJNR2.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$7.686 per On Demand Windows with SQL Server Enterprise c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "7.6860000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TZVABF964U9SZNBH",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TZVABF964U9SZNBH",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TZVABF964U9SZNBH.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$17.058 per On Demand Windows with SQL Server Enterprise c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "17.0580000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "42H2YPXW9ZK6797M",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "42H2YPXW9ZK6797M",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "42H2YPXW9ZK6797M.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.921 per On Demand Windows with SQL Server Enterprise c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.9210000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "E3KYCE494NJJQ7HQ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.2xlarge",
+        "instanceType": "D2_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": null
+      },
+      {
+        "sku": "PXCZXW3PVP7D4UZE",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.4xlarge",
+        "instanceType": "D2_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": null
+      },
+      {
+        "sku": "QJKG7CAJ557CS7U7",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.8xlarge",
+        "instanceType": "D2_8XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": null
+      },
+      {
+        "sku": "MPE72FKX7PJWJB9Z",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Storage optimized",
+        "origInstanceType": "d2.xlarge",
+        "instanceType": "D2_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": null
+      },
+      {
+        "sku": "HF2TEPPTM5A3FRRH",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HF2TEPPTM5A3FRRH",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "HF2TEPPTM5A3FRRH.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$19.336 per On Demand Windows with SQL Server Enterprise m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "19.3360000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CA2YX32E4D735NRA",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CA2YX32E4D735NRA",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CA2YX32E4D735NRA.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$30.937 per On Demand Windows with SQL Server Enterprise m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "30.9370000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "VVZ9Y75X7CW4SJZ6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "VVZ9Y75X7CW4SJZ6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "VVZ9Y75X7CW4SJZ6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$3.867 per On Demand Windows with SQL Server Enterprise m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "3.8670000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "M3AVZ37NRV3WXT3U",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "M3AVZ37NRV3WXT3U",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "M3AVZ37NRV3WXT3U.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$7.734 per On Demand Windows with SQL Server Enterprise m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "7.7340000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "2ZHFUXG2PP4W5YY2",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "2ZHFUXG2PP4W5YY2",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "2ZHFUXG2PP4W5YY2.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.934 per On Demand Windows with SQL Server Enterprise m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.9340000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "WNUFZXQAWKFRTKAV",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": null
+      },
+      {
+        "sku": "E57F72BZJ9VX8BWX",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Server Enterprise",
+        "os": "WINDOWS_SQL_ENTERPRISE",
+        "term": null
+      },
+      {
+        "sku": "JHHQDPE8HJVWKJZD",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.2xlarge",
+        "instanceType": "C4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JHHQDPE8HJVWKJZD",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "JHHQDPE8HJVWKJZD.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.985 per On Demand Windows with SQL Web c4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.9850000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "BNM8QQF9Y6FXE4W6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.4xlarge",
+        "instanceType": "C4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "BNM8QQF9Y6FXE4W6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "BNM8QQF9Y6FXE4W6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.968 per On Demand Windows with SQL Web c4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.9680000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "XWMWHUQ6RFJGM7B7",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.8xlarge",
+        "instanceType": "C4_8XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "XWMWHUQ6RFJGM7B7",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "XWMWHUQ6RFJGM7B7.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$4.192 per On Demand Windows with SQL Web c4.8xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "4.1920000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "XNNAH9SXEGRG2K96",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.large",
+        "instanceType": "C4_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "XNNAH9SXEGRG2K96",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "XNNAH9SXEGRG2K96.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.282 per On Demand Windows with SQL Web c4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2820000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "SGTACXRW77WVXVQK",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "origInstanceType": "c4.xlarge",
+        "instanceType": "C4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "SGTACXRW77WVXVQK",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "SGTACXRW77WVXVQK.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.492 per On Demand Windows with SQL Web c4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.4920000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "54CQ7W4KQ6HR3PNF",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.10xlarge",
+        "instanceType": "M4_10XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "54CQ7W4KQ6HR3PNF",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "54CQ7W4KQ6HR3PNF.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$5.04 per On Demand Windows with SQL Web m4.10xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "5.0400000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "RED8VJ3ZZJSFY5Z6",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.16xlarge",
+        "instanceType": "M4_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "RED8VJ3ZZJSFY5Z6",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "RED8VJ3ZZJSFY5Z6.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$8.064 per On Demand Windows with SQL Web m4.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "8.0640000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "9QBVDGTC5JYQ8W2N",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.2xlarge",
+        "instanceType": "M4_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "9QBVDGTC5JYQ8W2N",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "9QBVDGTC5JYQ8W2N.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$1.008 per On Demand Windows with SQL Web m4.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "1.0080000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "BYF4STDUCFPJNCYR",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.4xlarge",
+        "instanceType": "M4_4XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "BYF4STDUCFPJNCYR",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "BYF4STDUCFPJNCYR.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$2.016 per On Demand Windows with SQL Web m4.4xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "2.0160000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "7RDK3V34WP7X6QAK",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.large",
+        "instanceType": "M4_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "7RDK3V34WP7X6QAK",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "7RDK3V34WP7X6QAK.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.288 per On Demand Windows with SQL Web m4.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2880000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "UNDA3BQNHZ6BHJTH",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "origInstanceType": "m4.xlarge",
+        "instanceType": "M4_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "UNDA3BQNHZ6BHJTH",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "UNDA3BQNHZ6BHJTH.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.505 per On Demand Windows with SQL Web m4.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.5050000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "6VG9UMRZSYAEYTJJ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.2xlarge",
+        "instanceType": "T2_2XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6VG9UMRZSYAEYTJJ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "6VG9UMRZSYAEYTJJ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.627 per On Demand Windows with SQL Web t2.2xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.6270000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "CN8AVHD2ACA3723F",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.large",
+        "instanceType": "T2_LARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CN8AVHD2ACA3723F",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "CN8AVHD2ACA3723F.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.2046 per On Demand Windows with SQL Web t2.large Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.2046000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "PHHCECN9GBCWX9SB",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.medium",
+        "instanceType": "T2_MEDIUM",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "PHHCECN9GBCWX9SB",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "PHHCECN9GBCWX9SB.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.1414 per On Demand Windows with SQL Web t2.medium Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1414000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "TNUS5HWYKTTUUPZQ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.micro",
+        "instanceType": "T2_MICRO",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TNUS5HWYKTTUUPZQ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "TNUS5HWYKTTUUPZQ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.0896 per On Demand Windows with SQL Web t2.micro Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.0896000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "D4Y6J4VJFT725YNX",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.small",
+        "instanceType": "T2_SMALL",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "D4Y6J4VJFT725YNX",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "D4Y6J4VJFT725YNX.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.1062 per On Demand Windows with SQL Web t2.small Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.1062000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "HZQ9NQJXB3Q92AEQ",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "General purpose",
+        "origInstanceType": "t2.xlarge",
+        "instanceType": "T2_XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HZQ9NQJXB3Q92AEQ",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "HZQ9NQJXB3Q92AEQ.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$0.3244 per On Demand Windows with SQL Web t2.xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "0.3244000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "DQ5RD4VZQQKTHGEW",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.16xlarge",
+        "instanceType": "X1_16XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "DQ5RD4VZQQKTHGEW",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "DQ5RD4VZQQKTHGEW.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$12.474 per On Demand Windows with SQL Web x1.16xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "12.4740000000",
+            "currency": "USD"
+          }
+        }
+      },
+      {
+        "sku": "4YHYVU6ERGVMGJE9",
+        "productFamily": "Compute Instance",
+        "servicecode": "AmazonEC2",
+        "location": "EU (London)",
+        "currentGeneration": null,
+        "instanceFamily": "Memory optimized",
+        "origInstanceType": "x1.32xlarge",
+        "instanceType": "X1_32XLARGE",
+        "operatingSystem": "Windows",
+        "preInstalledSw": "SQL Web",
+        "os": "WINDOWS_SQL_WEB",
+        "term": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "4YHYVU6ERGVMGJE9",
+          "effectiveDate": "2016-12-01T00:00:00Z",
+          "priceDimensions": {
+            "rateCode": "4YHYVU6ERGVMGJE9.JRTCKXETXF.6YS6EN2CT7",
+            "description": "$24.947 per On Demand Windows with SQL Web x1.32xlarge Instance Hour",
+            "unit": "Hrs",
+            "pricePerUnit": "24.9470000000",
+            "currency": "USD"
+          }
+        }
+      }
+    ]
+  }
+]
